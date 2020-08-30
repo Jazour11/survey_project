@@ -1,3 +1,83 @@
-<html>
-<h1 id="title">Electric Car's Or Gas</h1>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body>
+     <h1 id="title">Electric Car's Or Gas Car's</h1>
+
+     <img src="img/mpic.jpg" id="mpic" alt="electric car">
+
+         <!-- Short Description of the purpose of the survey -->
+
+     <p id="description">Electric Car's are all the rage today, and they do have benefit's to Gas powered Automobiles.
+     They also have some downside's when <br> compared to gas powered automobiles.I created this survey to get a feel
+     about how other's feel, and which type of automobiles they perfer.
+     </p>
+
+     <br>
+
+     <form id="survey-form">
+
+       <label id="name-label">Name:</label>
+       <input type="text" name="name" id="name" required placeholder="Enter Name"></input>
+
+       <br><br>
+
+      <label id="email-label">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="Enter email"></input>
+
+       <br><br>
+
+       <label id="number-label">Age:</label>
+       <input type="number" name="age" id="number" min="1" max="120" required placeholder="Age"> </input>
+
+       <br><br>
+
+       <input type="submit" name="Submit" id="submit"></input>
+
+       <br><br>
+
+         <label for="cars">Would you pick a gas car or an electric car?:</label>
+     <select id="dropdown" name="cars">
+         <option value="volvo">Electric</option>
+         <option value="saab">Gas</option>
+         <option value="fiat">Other</option>
+     </select>
+
+     <br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+       <br><br>
+        <label for="car type">What kind of car do you currently have?</label>
+
+        <br><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Electric">
+        <label for="vehicle1"> I have an electric car</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Gas">
+        <label for="vehicle2"> I have gas car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="OtherS">
+        <label for="vehicle3"> I have a another kind of car</label>
+
+        <br><br>
+
+        <textarea rows="4" cols="50" name="comment" form="usrform">
+         Enter text here...</textarea>
+        <br><br>
+
+        <input type="submit">
+       </form>
+
+      <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+
+    </body>
 </html>
